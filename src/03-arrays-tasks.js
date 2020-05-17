@@ -119,6 +119,7 @@ function removeFalsyValues(/* arr */) {
  *    [ 'a', 'b', 'c', 'd', 'e', 'f', 'g' ]  => [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ]
  */
 function getUpperCaseStrings(arr) {
+  // eslint-disable-next-line func-names
   const toUpper = function (x) {
     return x.toUpperCase();
   };
@@ -138,6 +139,7 @@ function getUpperCaseStrings(arr) {
  *    [ 'angular', 'react', 'ember' ] => [ 7, 5, 5 ]
  */
 function getStringsLength(arr) {
+  // eslint-disable-next-line func-names
   const toLength = function (x) {
     return x.length;
   };
